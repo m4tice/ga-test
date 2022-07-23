@@ -4,6 +4,10 @@ from utils import add
 
 
 def main():
+    """
+    Testing utils functions implementation
+    :return: nothing.
+    """
     result_1 = add(1, 2)
     print(result_1)
 
