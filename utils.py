@@ -1,3 +1,6 @@
+"""Utils module."""
+
+
 def add(first_number, second_number):
     """
     :param first_number: first number (any type)
