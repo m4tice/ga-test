@@ -34,4 +34,5 @@ def divide(first_number, second_number):
     :param second_number: second number (any type)
     :return: division of two numbers
     """
+
     return first_number / second_number
