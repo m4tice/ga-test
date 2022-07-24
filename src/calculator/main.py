@@ -1,6 +1,6 @@
 """main module."""
 
-from utils import add
+from src.calculator.utils import add
 
 
 def main():
