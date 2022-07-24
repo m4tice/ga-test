@@ -26,3 +26,7 @@ def multiply(first_number, second_number):
     :return: multiplication of two numbers
     """
     return first_number * second_number
+
+
+def divide(a, b):
+    return a / b
