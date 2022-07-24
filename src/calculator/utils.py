@@ -28,5 +28,10 @@ def multiply(first_number, second_number):
     return first_number * second_number
 
 
-def divide(a, b):
-    return a / b
+def divide(first_number, second_number):
+    """
+    :param first_number: first number (any type)
+    :param second_number: second number (any type)
+    :return: division of two numbers
+    """
+    return first_number / second_number
