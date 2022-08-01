@@ -1,6 +1,6 @@
 """Testing of utils"""
 
-# from src.calculator.utils import add
+from calculator.utils import add
 #
 #
 # def test_add():
