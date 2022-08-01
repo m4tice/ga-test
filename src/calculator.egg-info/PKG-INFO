@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: calculator
+Version: 0.0.0
+Summary: basic calculator
+Author: m4tice
+Requires-Python: >=3.7
