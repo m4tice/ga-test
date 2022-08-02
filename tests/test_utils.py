@@ -14,12 +14,11 @@ def test_add():
     """
 
     assert add(1, 2) == 3
-#     assert add(1, 2) is 3
-#     assert add(3, 4) is 7
-#     assert add(0, 2) is 2
-#     assert add(0, 0) is 0
-#     assert add(0, -1) is -1
-#     assert add(-1, -2) is -3
-#     assert add(1, -1) is 0
-#     assert add(3, -4) is -1
-#     assert add(5, -3) is 2
+    assert add(3, 4) == 7
+    assert add(0, 2) == 2
+    assert add(0, 0) == 0
+    assert add(0, -1) == -1
+    assert add(-1, -2) == -3
+    assert add(1, -1) == 0
+    assert add(3, -4) == -1
+    assert add(5, -3) == 2
