@@ -23,16 +23,3 @@ def test_add():
 #     assert add(1, -1) is 0
 #     assert add(3, -4) is -1
 #     assert add(5, -3) is 2
-
-
-def test_main():
-    """
-    Main test function
-    :return:
-    """
-
-    print(test_add())
-
-
-if __name__ == '__main__':
-    test_main()
