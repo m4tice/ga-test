@@ -1,6 +1,10 @@
 """Testing of utils"""
 
+import sys
+
 from calculator.utils import add
+
+sys.path.append("../../src")
 
 
 def test_add():
