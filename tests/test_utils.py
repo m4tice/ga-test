@@ -9,7 +9,7 @@ def test_add():
     :return:
     """
 
-    return "Test add function"
+    return add(0, 0)
 #     assert add(1, 2) is 3
 #     assert add(3, 4) is 7
 #     assert add(0, 2) is 2
