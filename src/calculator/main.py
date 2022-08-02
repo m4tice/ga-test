@@ -1,8 +1,8 @@
 """main module."""
 
-from calculator.utils import add
-
 import sys
+
+from calculator.utils import add
 
 sys.path.append("../../src")
 
