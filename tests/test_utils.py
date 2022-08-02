@@ -1,13 +1,15 @@
 """Testing of utils"""
 
-# from calculator.utils import add
-#
-#
-# def test_add():
-#     """
-#     Test add function
-#     :return:
-#     """
+from calculator.utils import add
+
+
+def test_add():
+    """
+    Test add function
+    :return:
+    """
+
+    return "Test add function"
 #     assert add(1, 2) is 3
 #     assert add(3, 4) is 7
 #     assert add(0, 2) is 2
