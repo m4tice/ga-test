@@ -2,7 +2,9 @@ Metadata-Version: 2.1
 Name: calculator
 Version: 0.0.0
 Summary: basic calculator
+Home-page: UNKNOWN
 Author: m4tice
+License: UNKNOWN
 Platform: unix
 Platform: linux
 Platform: osx
@@ -15,3 +17,6 @@ Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Requires-Python: >=3.7
+
+UNKNOWN
+
