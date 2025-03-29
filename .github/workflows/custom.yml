@@ -19,6 +19,10 @@ jobs:
         python -m pip install --upgrade pip
         # pip install pylint
         pip install -r requirements.txt
+    - name: Run generator
+      run: |
+        # Run the generator script
+        python generator.py
     # - name: Analysing the code with pylint
     #   run: |
     #     pylint $(git ls-files '*.py')
