@@ -24,6 +24,14 @@ jobs:
         # Run the generator script
         mkdir -p _out
         python main.py
+
+    - name: push changes to remote
+      run: |
+        git config --global user.name "m4tice"
+        git config --global user.email "ductuan2908@gmail.com"
+
+        git add _out; git commit -m "update: generated files"
+        git push
     # - name: Analysing the code with pylint
     #   run: |
     #     pylint $(git ls-files '*.py')
