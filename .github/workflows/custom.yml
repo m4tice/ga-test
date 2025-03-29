@@ -22,6 +22,7 @@ jobs:
     - name: Run generator
       run: |
         # Run the generator script
+        mkdir -p _out
         python main.py
     # - name: Analysing the code with pylint
     #   run: |
