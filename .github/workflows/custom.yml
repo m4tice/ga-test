@@ -19,6 +19,12 @@ jobs:
         python -m pip install --upgrade pip
         # pip install pylint
         pip install -r requirements.txt
+
+    - name: clear directory
+      run: |
+        git rm _out/*
+        git commit -m "remove generated files"
+
     - name: Run generator
       run: |
         # Run the generator script
