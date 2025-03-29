@@ -22,7 +22,7 @@ jobs:
     - name: Run generator
       run: |
         # Run the generator script
-        python generator.py
+        python main.py
     # - name: Analysing the code with pylint
     #   run: |
     #     pylint $(git ls-files '*.py')
