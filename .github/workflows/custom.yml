@@ -1,4 +1,4 @@
-name: Pylint & Tests
+name: Git generate and push
 
 on: [push]
 
