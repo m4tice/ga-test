@@ -20,6 +20,11 @@ jobs:
         # pip install pylint
         pip install -r requirements.txt
 
+    - name: setup git credentials
+      run: |
+        git config --global user.name "m4tice"
+        git config --global user.email "ductuan2908@gmail.com"
+
     - name: clear directory
       run: |
         git rm _out/*
@@ -33,9 +38,6 @@ jobs:
 
     - name: push changes to remote
       run: |
-        git config --global user.name "m4tice"
-        git config --global user.email "ductuan2908@gmail.com"
-
         git add _out; git commit -m "update: generated files"
         git push
     # - name: Analysing the code with pylint
